@@ -78,8 +78,6 @@ The analysis is based on a **simulated dataset representing pizza delivery servi
 
 ## Results Visualizations
 
-## Results Visualizations
-
 ### Own-Price and Cross-Price Elasticities Heatmap
 <img src="images/elasticity_matrix_heatmap.png" width="500"/>
 This heatmap illustrates consumer sensitivity to price changes across products. The strong negative diagonal reflects high own-price elasticity, while near-zero off-diagonal values indicate weak substitution effects between products.
