@@ -78,43 +78,45 @@ The analysis is based on a **simulated dataset representing pizza delivery servi
 
 ## Results Visualizations
 
+## Results Visualizations
+
 ### Own-Price and Cross-Price Elasticities Heatmap
-![Elasticity Matrix](images/elasticity_matrix_heatmap.png)
+<img src="images/elasticity_matrix_heatmap.png" width="500"/>
 This heatmap illustrates consumer sensitivity to price changes across products. The strong negative diagonal reflects high own-price elasticity, while near-zero off-diagonal values indicate weak substitution effects between products.
 
 ---
 
 ### Distribution of Product Markups Across the Market
-![Markup Distribution](images/markup_distribution.png)
-This histogram shows the distribution of markups, with most products priced at approximately 40% above marginal cost. This suggests firms maintain healthy but competitive profit margins in a differentiated market.
+<img src="images/markup_distribution.png" width="500"/>
+This histogram shows the distribution of markups, with most products priced at approximately 40% above marginal cost, suggesting moderate pricing power.
 
 ---
 
 ### Market Concentration (HHI) Across Markets
-![HHI Distribution](images/hhi_distribution.png)
-The distribution indicates that most markets are moderately concentrated (HHI around 1800), though a few markets approach or exceed the 2,500 threshold, signaling potential market power concerns.
+<img src="images/hhi_distribution.png" width="500"/>
+Most markets exhibit moderate concentration (HHI ~1800), though a few exceed thresholds associated with reduced competition.
 
 ---
 
 ### Impact of Merger on Market Concentration (ΔHHI)
-![Post-Merger HHI](images/post_merger_hhi_change.png)
-Following the simulated merger, many markets experience a significant increase in HHI. This rise suggests reduced competition and potential regulatory red flags due to heightened market concentration.
+<img src="images/post_merger_hhi_change.png" width="500"/>
+Post-merger, HHI values increase significantly across markets, indicating heightened concentration and potential antitrust concerns.
 
 ---
 
 ### Relationship Between Market Concentration and Average Markup
-![Markup vs HHI](images/markup_vs_hhi_scatter.png)
-This scatterplot reveals a positive relationship between market concentration and average markup, indicating that firms in more concentrated markets tend to exercise greater pricing power.
+<img src="images/markup_vs_hhi_scatter.png" width="500"/>
+A positive trend shows that higher market concentration correlates with increased average markups, reflecting stronger pricing power.
 
 ---
 
 ### Consumer Surplus Distribution Across Markets
-![Consumer Surplus](images/consumer_surplus_distribution.png)
-Consumer surplus remains substantial across markets, but the spread highlights variability in consumer benefit depending on market conditions and pricing strategies.
+<img src="images/consumer_surplus_distribution.png" width="500"/>
+Consumer surplus remains substantial but varies widely, influenced by market dynamics and firm pricing strategies.
 
 ---
 
 ### Distribution of Profit Changes Following Merger Simulation
-![Profit Change](images/profit_change_post_merger.png)
-This distribution shows that while most products experienced profit gains post-merger, a notable share saw minimal or even negative changes, reflecting the complex impact of reduced competition on profitability.
+<img src="images/profit_change_post_merger.png" width="500"/>
+While many products experienced profit gains post-merger, some saw negligible or negative changes, highlighting uneven impacts of consolidation.
 
