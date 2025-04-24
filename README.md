@@ -75,3 +75,46 @@ The analysis is based on a **simulated dataset representing pizza delivery servi
 | **Post-Merger Markup Change**  | +7.5% increase (Reduced competition leads to higher prices) |
 
 ---
+
+## Results Visualizations
+
+### Own-Price and Cross-Price Elasticities Heatmap
+![Elasticity Matrix](images/elasticity_matrix_heatmap.png)
+This heatmap illustrates consumer sensitivity to price changes across products. The strong negative diagonal reflects high own-price elasticity, while near-zero off-diagonal values indicate weak substitution effects between products.
+
+---
+
+### Distribution of Product Markups Across the Market
+![Markup Distribution](images/markup_distribution.png)
+This histogram shows the distribution of markups, with most products priced at approximately 40% above marginal cost. This suggests firms maintain healthy but competitive profit margins in a differentiated market.
+
+---
+
+### Market Concentration (HHI) Across Markets
+![HHI Distribution](images/hhi_distribution.png)
+The distribution indicates that most markets are moderately concentrated (HHI around 1800), though a few markets approach or exceed the 2,500 threshold, signaling potential market power concerns.
+
+---
+
+### Impact of Merger on Market Concentration (ΔHHI)
+![Post-Merger HHI](images/post_merger_hhi_change.png)
+Following the simulated merger, many markets experience a significant increase in HHI. This rise suggests reduced competition and potential regulatory red flags due to heightened market concentration.
+
+---
+
+### Relationship Between Market Concentration and Average Markup
+![Markup vs HHI](images/markup_vs_hhi_scatter.png)
+This scatterplot reveals a positive relationship between market concentration and average markup, indicating that firms in more concentrated markets tend to exercise greater pricing power.
+
+---
+
+### Consumer Surplus Distribution Across Markets
+![Consumer Surplus](images/consumer_surplus_distribution.png)
+Consumer surplus remains substantial across markets, but the spread highlights variability in consumer benefit depending on market conditions and pricing strategies.
+
+---
+
+### Distribution of Profit Changes Following Merger Simulation
+![Profit Change](images/profit_change_post_merger.png)
+This distribution shows that while most products experienced profit gains post-merger, a notable share saw minimal or even negative changes, reflecting the complex impact of reduced competition on profitability.
+
